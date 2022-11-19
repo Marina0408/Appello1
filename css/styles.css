@@ -1,17 +1,31 @@
+:root {
+--primary-text-color: #FFFFFF;
+--secondary-text-color: #000000;
+--accent-color: #0A8BFE;
+--secondary-background-color: #0E0E33;
+--additional-background-color: #FAFAFA;
+--main-text-color:  #737373;
+}
+
 body {
 /* font-family: 'Inter', sans-serif; */
 font-family: 'Roboto', sans-serif;
 }
 
+.list {
+list-style: none;
+}
+
+
 /* ---------------HEADER----------------- */
 header {
-background-color: blue;
+background-color: rgb(0, 255, 42);
 }
 
 .header-link {
 font-size: 13px;
 line-height: 2.31;
-color: #FFFFFF;   
+color: var(--primary-text-color);   
 }
 
 a {
@@ -20,7 +34,7 @@ text-decoration: none;
 
 .header-btn {
 padding: 12px 15px;
-border: 1px solid #FFFFFF;
+border: 1px solid var(--primary-text-color);
 border-radius: 4px;
 font-family: inherit;
 font-style: normal;
@@ -28,7 +42,74 @@ font-weight: 400;
 font-size: 13px;
 line-height: 1.23;
 text-align: center;
-color: #FFFFFF;
+color: var(--primary-text-color);
 background-color: transparent;
+}
+
+/* -------------H E-R-O------------ */
+
+.hero {
+background-color: blue;
+}
+
+.hero-title {
+font-size: 42px;
+line-height: 1.19;
+color: var(--primary-text-color);
+}
+
+.hero-text {
+font-size: 11px;
+line-height: 2.73;
+color: var(--primary-text-color);
+}
+
+.hero-btn {
+background: var(--accent-color);
+border-radius: 4px;
+border: none;
+font-size: 15px;
+line-height: 2;
+color: var(--primary-text-color);
+}
+
+----------P a r t n e r------------
+
+.partner-title {
+font-size: 26px;
+line-height: 1.46;
+color: var(--secondary-text-color);
+}
+
+.partner-text {
+font-size: 16px;
+line-height: 1.88;
+color: var(--main-text-color);
+}
+
+.partner-list {
+font-size: 11px;
+line-height: 2.73;
+color: var(--main-text-color);
+}
+
+/* -------Whereareyou--------- */
+
+.whereareyou-title {
+font-size: 41px;
+line-height: 1.22;
+text-align: center;
+color: var(--secondary-text-color);
+}
+
+.whereareyou-text {
+font-size: 12px;
+line-height: 2.5;
+text-align: center;
+color: var(--main-text-color);
+}
+
+.whereareyou-btn {
+display: flex;
 
 }
