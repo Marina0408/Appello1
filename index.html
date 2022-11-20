@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/styles.css"/>
     <title>Document</title>
     <link rel="stylesheet" href="./css/styles.css">
@@ -20,21 +21,13 @@
     <nav>
     <ul class="header-list list">
         <li><a href="" class="header-link">Home</a></li>
-    </ul>
-    <ul>
         <li><a href="" class="header-link">Portfolio</a></li>
-    </ul>
-    <ul>
         <li><a href="" class="header-link">Process</a></li>
-    </ul>
-    <ul>
         <li><a href="" class="header-link">Team</a></li>
-    </ul>
-    <ul>
         <li><a href="" class="header-link">Resources</a></li>
     </ul>
    </nav>
-   <button type="button" class="header-btn">Get project</button>
+   <button type="button" class="header-btn button">Get project</button>
    </header>
 
    <main>
@@ -42,7 +35,7 @@
     <section class="hero">
         <h1 class="hero-title">Leaders in Software Designed & Development</h1>
         <p class="hero-text">Establishing hlui;jgosrphjorpsh</p>
-        <button type="button" class="hero-btn">View your work</button>
+        <button type="button" class="hero-btn button">View your work</button>
     </section>
 
     <section class="partner">
@@ -77,88 +70,92 @@
     <p class="whereareyou-text">Use the tabs below to identify what stage you’re at 
         so we can help you to move on to the next phase of your project.</p>
     <ul class="whereareyou-list list">
-        <li class="whereareyou-item"><button type="button" class="whereareyou-btn">Design</button></li>
-        <li class="whereareyou-item"><button type="button" class="whereareyou-btn">Develop</button></li>
-        <li class="whereareyou-item"><button type="button" class="whereareyou-btn">Launch</button></li>
+        <li class="whereareyou-item"><button type="button" class="whereareyou-btn button">Design</button></li>
+        <li class="whereareyou-item"><button type="button" class="whereareyou-btn button">Develop</button></li>
+        <li class="whereareyou-item"><button type="button" class="whereareyou-btn button">Launch</button></li>
     </ul>
     <ol class="research-list list">
-        <li>
-            <h3> Research</h3>
-            <p>We can help you to better understand 
+        <li class="research-item">
+            <h3 class="research-title"> Research</h3>
+            <p class="research-text">We can help you to better understand 
                 your target audience, enabling you to create a more 
                 powerful value proposition for your business.</p>
         </li>
-        <li>
-            <h3> Requirements</h3>
-            <p>Based on research insights, we can help you 
+        <li class="research-item">
+            <h3 class="research-title"> Requirements</h3>
+            <p class="research-text">Based on research insights, we can help you 
                 to determine how your product 
                 and service should function.</p>
         </li>
-        <li>
-            <h3> UI Design</h3>
-            <p>We’re able to create unique and aesthetically pleasing 
+        <li class="research-item">
+            <h3 class="research-title"> UI Design</h3>
+            <p class="research-text">We’re able to create unique and aesthetically pleasing 
                 visual design solutions that fulfil both 
                 your user needs and business goals.</p>
         </li>
-        <li>
-            <h3> Prototyping</h3>
-            <p>We can provide you with a clickable prototype 
+        <li class="research-item">
+            <h3 class="research-title"> Prototyping</h3>
+            <p class="research-text">We can provide you with a clickable prototype 
                 so you can test and play 
                 with your product; allowing you to get a better feel 
                 for the user experience.</p>
         </li>
     </ol>
-    <button type="button">Contact us</button>
+    <button type="button" class="contact-btn button">Contact us</button>
    </section>
-   <section>
-    <h2>We’re proud of our work</h2>
-    <ul>
-        <li>
-            <h3>50+</h3>
-            <p>Successfully completed projects</p>
+
+   <section class="work">
+    <div class="work-background">
+    <h2 class="work-title">We’re proud of our work</h2>
+    <ul class="work-list list">
+        <li class="work-item">
+            <h3 class="work-item-title">50+</h3>
+            <p class="work-text">Successfully completed projects</p>
         </li>
-        <li>
-            <h3>35+</h3>
-            <p>Happy and appreciative customers</p>
+        <li class="work-item">
+            <h3 class="work-item-title">35+</h3>
+            <p class="work-text">Happy and appreciative customers</p>
         </li>
-        <li>
-            <h3>10</h3>
-            <p>Combined years of experience</p>
+        <li class="work-item">
+            <h3 class="work-item-title">10</h3>
+            <p class="work-text">Combined years of experience</p>
         </li>
-        <li>
-            <h3>23</h3>
-            <p>Experienced and talented workers</p>
+        <li class="work-item">
+            <h3 class="work-item-title">23</h3>
+            <p class="work-text">Experienced and talented workers</p>
         </li>
     </ul>
-    <ul>
+    </div>
+    <ul class="work-img-list list">
         <li>
             <img src="" alt="">
-            <h3>Eyetelligence – AI-based Eye Health</h3>
-            <p>Eyetelligence is a medtech company using AI based software to recognise eye diseases.
+            <h3 class="work-caption">Eyetelligence – AI-based Eye Health</h3>
+            <p class="work-description">Eyetelligence is a medtech company using AI based software to recognise eye diseases.
                  Appello software developed their website which has just been released.</p>
         </li>
         <li>
             <img src="" alt="">
-            <h3>Give + Get – Charity Challenger App</h3>
-            <p>Give + Get is a modern charity app. “Give”, 
+            <h3 class="work-caption">Give + Get – Charity Challenger App</h3>
+            <p class="work-description">Give + Get is a modern charity app. “Give”, 
                 while joining a community of active people who complete challenges 
                 and reap the rewards they offer; “Get”.</p>
         </li>
         <li>
             <img src="" alt="">
-            <h3>Voken – Shared Childcare App</h3>
-            <p>Voken lets people arrange childcare with families they trust, 
+            <h3 class="work-caption">Voken – Shared Childcare App</h3>
+            <p class="work-description">Voken lets people arrange childcare with families they trust, 
                 earn tokens and use for your own requests.</p>
         </li>
         <li>
             <img src="" alt="">
-            <h3>Chattii – Disability Dating App</h3>
-            <p>Chattii is born from the need to provide a space for people 
+            <h3 class="work-caption">Chattii – Disability Dating App</h3>
+            <p class="work-description">Chattii is born from the need to provide a space for people 
                 living with disabilities to connect, chat, and explore their love life.</p>
         </li>
     </ul>
-    <button type="button">See more</button>
+    <button type="button" class="work-btn button">See more</button>
    </section>
+
    <section>
     <h2>We value our relationships</h2>
     <p>Over the past decade, Appello has established itself as a leader in the IT industry. 
